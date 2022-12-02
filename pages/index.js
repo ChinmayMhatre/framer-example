@@ -11,7 +11,7 @@ export default function Home() {
     
 
     const [active, setActive] = useState(0);
-    const [background, setBackground] = useState("bg-gradient-to-r from-sky-500 to-indigo-900 transition-all duration-300");
+    const [background, setBackground] = useState("bg-gradient-to-r from-[#001850] to-[#000] transition-all duration-300");
 
     useEffect(() => {
         if(active === 0) {
