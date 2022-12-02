@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("../public/DMSans-Regular.ttf");
+}
+
+html{
+    background-color: black;
+}
+
+
